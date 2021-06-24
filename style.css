@@ -1,0 +1,31 @@
+.container {
+    width: 85%;
+    display: grid;
+    grid-template-areas: 'header header header header header header' 'aside content content content content content' 'footer footer footer footer footer footer';
+    grid-gap: 10px;
+    margin: 0 auto;
+}
+
+.header {
+    background-color: thistle;
+    grid-area: header;
+}
+
+.aside {
+    grid-area: aside;
+}
+
+.aside-list {
+    list-style-position: outside;
+    list-style-type: square;
+}
+
+.content {
+    background-color: yellowgreen;
+    grid-area: content;
+}
+
+.footer {
+    grid-area: footer;
+    background-color: whitesmoke;
+}
